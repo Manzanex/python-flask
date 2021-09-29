@@ -1,8 +1,6 @@
 import unittest
 from flask import request, make_response, redirect, render_template, session, url_for, flash
 from flask_login import login_required, current_user
-
-
 from app import create_app
 from app.forms import TodoForm, DeleteTodoForm, UpdateTodoForm
 from app.firestore_service import update_todo, get_todos,put_todo, delete_todo

@@ -1,4 +1,9 @@
 *.jpg
-app/config.py
 *.webp
 *.png
+config.py
+*.key
+*.env
+*.yaml
+*.log
+app/static/
