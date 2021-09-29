@@ -6,4 +6,4 @@ config.py
 *.env
 *.yaml
 *.log
-static
+/app/static/*
