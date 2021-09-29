@@ -1,0 +1,4 @@
+*.jpg
+app/config.py
+*.webp
+*.png
